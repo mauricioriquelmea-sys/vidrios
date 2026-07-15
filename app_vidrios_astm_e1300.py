@@ -483,7 +483,7 @@ b_short_mm = st.sidebar.number_input("Ancho del vano, b [mm]", min_value=100.0,
 
 st.sidebar.subheader("2. Solicitación")
 q_kpa = st.sidebar.number_input("Presión de viento de diseño, q [kPa]",
-                                min_value=0.05, max_value=20.0, value=1.50,
+                                min_value=0.05, max_value=20.0, value=0.50,
                                 step=0.05, format="%.2f")
 duration_label = st.sidebar.selectbox("Duración de la carga", ["3 seg", "60 seg"])
 duration_s = 3.0 if duration_label == "3 seg" else 60.0
