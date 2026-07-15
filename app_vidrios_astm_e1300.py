@@ -101,7 +101,7 @@ ALLOWABLE_STRESS_3S = {
 # Colores de representación gráfica según tratamiento térmico (convención Saflex)
 GLASS_COLORS = {
     "Crudo (Annealed)": "#F2E205",              # Amarillo
-    "Termoendurecido (Heat Strengthened)": "#F28C0F",  # Naranjo
+    "Termoendurecido (Heat Strengthened)": "#130FF2",  # Azul
     "Templado (Tempered)": "#D62828",           # Rojo
 }
 
